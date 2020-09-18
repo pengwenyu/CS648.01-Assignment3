@@ -1,0 +1,94 @@
+/*The width of the page should be set to 960px,
+ all text should be Arial, Helvetica, sans-serif, 
+ the size of the text should be 1em, and the 
+ line height should be adjusted to 2em (double-spaced).*/
+ /*Remove the margins from the top, right, and bottom of the web page. 
+ You should only have a left margin of 20px 
+ that is carried over from the inline style in the <body> tag.*/
+body{
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0px;
+}
+/*Adjust the main navigation menu so that it’s spaced correctly and 
+that the list that the navigation menu is in is also formatted to look 
+like my finished design*/
+ul:first-of-type{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*Stylize all of the headings on each web page. 
+Colors that you will use here include #DFE3E6 (light grey), #929CA4 (dark grey), 
+and #CC1C0D (red). Note that headings also have a border, 
+curved corners, and a slight padding on the left side of each heading.*/
+h2{
+    color: #CC1C0D;
+    background-color: #DFE3E6;
+    border: 2px solid #929CA4 ;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+/*Change the color of all your hyperlinks to #CC1C0D (red).*/
+a{
+    color: #CC1C0D;
+}
+p > img{
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+section > img{
+    float: left;
+    border: solid #CC1C0D ;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+section{
+    margin: 10px ;
+}
+section > p{
+    border: 0px;
+    margin: 0px;
+}
+
+.pricing > div{
+    float: left;
+    width: 220px;
+    height: 300px;
+    border: solid black;
+    text-align: center;
+    margin:5px;
+}
+
+.pricing > div > img{
+    margin-top: 20px;
+}
+
+.pricing > div:last-of-type{
+    padding-top: 36px;
+    padding-bottom: 0px;
+    height: 265px;
+}
+
+.pricing > div:nth-last-of-type(4) >h3{
+    border-top: 10px solid #CC1C0D;
+}
+
+.pricing > div:nth-last-of-type(3) >h3{
+    border-top: 10px solid #37A4A4;
+}
+
+.pricing > div:nth-last-of-type(2) >h3{
+    border-top: 10px solid #685288;
+}
+
+.pricing > div:nth-last-of-type(1) >h3{
+    border-top: 10px solid #000000;
+}
+
+#vprospect,#vconvert,#vretain{
+    font-weight: bold;
+}
